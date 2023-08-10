@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Klanten</title>
+    <script defer src="js/klant.js" type="module"></script>
+    <link href="images/movies.ico" rel="icon" type="images/x-icon">
+    <link href="css/movies.css" rel="stylesheet">
+</head>
+<body>
+    <h1>Klant</h1>
+    <label>Naam:
+        <span id="naamFout" class="fout" hidden>Verplicht</span>
+        <input id="woord" required autofocus>
+    </label>
+    <button id="zoek">Zoeken</button>
+    <table id="naamTable" >
+        <thead>
+        <tr>
+            <th>Naam</th>
+            <th>Straat - Huisnummer</th>
+            <th>Postcode</th>
+            <th>Gemeente</th>
+        </tr>
+        </thead>
+        <tbody id="tableBody">
+            <!--tr>
+                <td><a href="bevestig.html">Coppens Roland</a></td>
+                <td>Dorp 6</td>
+                <td>9411</td>
+                <td>Erondegem</td>
+            </tr-->
+        </tbody>
+    </table>
+    <br/>
+    <a href="index.html">Startpagina</a>
+    <a href="mandje.html">Mandje</a>
+    <div id="storing" class="fout" hidden>Storing, contacteer helpdesk.</div> </body>
+</body>
+</html>

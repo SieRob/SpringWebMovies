@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Film</title>
+    <script defer src="js/film.js" type="module"></script>
+    <link href="images/movies.ico" rel="icon" type="images/x-icon">
+    <link href="css/movies.css" rel="stylesheet">
+</head>
+<body>
+    <h1 id="titelLoc"></h1>
+    <div id="imageLoc">
+    </div>
+    <div>
+        <p>Prijs</p>
+        <b><p id="prijsLoc"></p></b>
+
+        <p>Voorraad</p>
+        <b><p id="voorraadLoc"></p></b>
+
+        <p>Gereserveerd</p>
+        <b><p id="gereserveerdLoc"></p></b>
+
+        <p>Beschikbaar</p>
+        <b><p id="beschikbaarLoc"></p></b>
+    </div>
+    <div>
+        <button id="btnToevoegen">In mandje</button>
+    </div>
+     <div class="fout" hidden id="duplicateInMandje">Deze film zit al in je mandje</div>
+    <a href="/index.html">Startpagina</a>
+</body>
+</html>
